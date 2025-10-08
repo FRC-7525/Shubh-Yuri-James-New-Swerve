@@ -8,6 +8,11 @@ java {
     targetCompatibility = JavaVersion.VERSION_17
 }
 
+dependencies {
+    implementation 'com.revrobotics.frc:SparkMax-java:1.5.2'
+    implementation 'com.github.FRC-7525:pioneerslib:1.3.7'
+}
+
 def ROBOT_MAIN_CLASS = "frc.robot.Main"
 
 // Define my targets (RoboRIO) and artifacts (deployable files)
